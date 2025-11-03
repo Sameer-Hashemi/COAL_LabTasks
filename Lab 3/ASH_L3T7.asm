@@ -2,8 +2,8 @@
 .model sma11
 .stack 100h
 .data
-msg1 db 'SADEEMS'
-msg2 db '66385$'
+msg1 db 'Sameer$'
+msg2 db '66026$'
 msg3 db 'COALS'
 .code
 main proc
@@ -36,4 +36,5 @@ mov ah, 4ch
 int 21h
 main endp
 end main
+
 
